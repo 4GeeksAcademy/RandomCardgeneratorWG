@@ -14,9 +14,9 @@ function generateCard(){
   const number = generateRandomNumber();
 
   
-  document.querySelector(".top-suit").textContent = suit;
-  document.querySelector(".bottom-suit").textContent = suit;
-  document.querySelector(".number").textContent = number;
+  document.querySelector(".top-suit").innerHTML = suit;
+  document.querySelector(".bottom-suit").innerHTML = suit;
+  document.querySelector(".number").innerHTML = number;
 
   
   const card = document.querySelector(".card");
